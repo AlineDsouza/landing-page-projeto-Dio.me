@@ -11,6 +11,10 @@ ul{
 ul li a {
     text-decoration: none;
 }
+div img{
+    display: block;
+    width: 100%;
+}
 .flex-container {
     display: flex;
     max-width: 992px;
@@ -29,10 +33,69 @@ header .list-item{
     max-width: 260px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 .list-item {
     color: aliceblue;
 }
 header .menu{
     justify-content: space-between;
+}
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao .texto-apresentscao{
+    min-height: 200px;
+}
+.texto-apresentacao h1{
+    color: rgb(117, 8, 117);
+    font-size: 48px;
+    margin: 10px;
+}
+.texto-apresentacao a{
+    background-color: rgb(117, 8, 117);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    width: 220px;
+    text-decoration: none;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 3.2em;
+}
+.texto-apresentacao a:hover{
+    background-color: rgb(223, 132, 223);
+    color: aliceblue;
+    transition: 1s;
+}
+#quem-somos{
+    flex-direction: row-reverse;
+
+}
+.apresentacao-2{
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color:rgb(117, 8, 117) ;
+    display: flex;
+    margin-bottom: 20px;
+}
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+#quem-somos h2::before{
+    content: "";
+    height: 40px;
+    width: 6px;
+    background-color: rgb(117, 8, 117);
+    margin-right: 5px;
+    position: relative;
+    border-radius: 5px;
 }
