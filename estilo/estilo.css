@@ -109,7 +109,7 @@ header .menu{
 #serv{
     flex-direction: column;
     padding-top: 20px;
-padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 #serv h2 {
     color: aliceblue;
@@ -144,4 +144,29 @@ padding-bottom: 15px;
 .item-servico img{
     width: 60%;
     margin: auto;
+}
+#planos{
+    flex-direction: column ;
+    min-height: 100vh;
+}
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.item-plano{
+   flex: 1;
+   border: 5px solid rgb(117, 8, 117);
+   margin-right: 20px;
+   border-radius: 10px;
+   padding: 8px;
+}
+.btn{
+    color: white;
+    background-color: rgb(117, 8, 117);
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 4px;
+    justify-content: center;
 }
